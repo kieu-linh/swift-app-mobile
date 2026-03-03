@@ -9,9 +9,23 @@ import SwiftUI
 
 @main
 struct swift_app_mobileApp: App {
+    private let appFactory = AppFactory()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppCoordinatorView(
+                screenFactory: ScreenFactory(appFactory: appFactory),
+                coordinator: AppCoordinator()
+            )
+            .onAppear {
+                NetworkMonitor.shared.startMonitoring()
+
+                // Clear token on fresh install
+                if !AppUserDefaults.isFreshInstall {
+                    try? KeychainService.shared.deleteToken()
+                    AppUserDefaults.isFreshInstall = true
+                }
+            }
         }
     }
 }

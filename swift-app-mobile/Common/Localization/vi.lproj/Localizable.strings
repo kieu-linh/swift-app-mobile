@@ -1,0 +1,47 @@
+/* Common */
+"app_name" = "Swift App";
+"common_ok" = "Đồng ý";
+"common_cancel" = "Hủy";
+"common_done" = "Xong";
+"common_save" = "Lưu";
+"common_delete" = "Xóa";
+"common_edit" = "Sửa";
+"common_close" = "Đóng";
+"common_back" = "Quay lại";
+"common_next" = "Tiếp";
+"common_retry" = "Thử lại";
+"common_loading" = "Đang tải...";
+"common_search" = "Tìm kiếm";
+
+/* Auth */
+"auth_login" = "Đăng nhập";
+"auth_logout" = "Đăng xuất";
+"auth_register" = "Đăng ký";
+"auth_email" = "Email";
+"auth_password" = "Mật khẩu";
+"auth_forgot_password" = "Quên mật khẩu?";
+"auth_welcome_back" = "Chào mừng trở lại";
+"auth_sign_in_continue" = "Đăng nhập để tiếp tục";
+"auth_enter_email" = "Nhập email của bạn";
+"auth_enter_password" = "Nhập mật khẩu của bạn";
+"auth_no_account" = "Chưa có tài khoản?";
+"auth_sign_up" = "Đăng ký";
+
+/* Home */
+"home_title" = "Trang chủ";
+"home_welcome" = "Xin chào, %@!";
+
+/* Profile */
+"profile_title" = "Hồ sơ";
+"profile_edit" = "Chỉnh sửa hồ sơ";
+"profile_settings" = "Cài đặt";
+
+/* Error */
+"error_general" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error_network" = "Không có kết nối mạng. Vui lòng kiểm tra lại.";
+"error_unauthorized" = "Phiên đăng nhập hết hạn. Vui lòng đăng nhập lại.";
+"error_server" = "Lỗi máy chủ. Vui lòng thử lại sau.";
+
+/* Success */
+"success_login" = "Đăng nhập thành công!";
+"success_register" = "Đăng ký thành công!";

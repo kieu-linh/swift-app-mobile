@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		BDFAA7822F56940300BE6061 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BDFAA7692F56940100BE6061 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BDFAA7702F56940100BE6061;
-			remoteInfo = "swift-app-mobile";
-		};
-		BDFAA78C2F56940300BE6061 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BDFAA7692F56940100BE6061 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BDFAA7702F56940100BE6061;
-			remoteInfo = "swift-app-mobile";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		BDFAA7712F56940100BE6061 /* swift-app-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-app-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDFAA7812F56940300BE6061 /* swift-app-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-app-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDFAA78B2F56940300BE6061 /* swift-app-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-app-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = "swift-app-mobile";
 			sourceTree = "<group>";
 		};
-		BDFAA7842F56940300BE6061 /* swift-app-mobileTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "swift-app-mobileTests";
-			sourceTree = "<group>";
-		};
-		BDFAA78E2F56940300BE6061 /* swift-app-mobileUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "swift-app-mobileUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BDFAA76E2F56940100BE6061 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDFAA77E2F56940300BE6061 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDFAA7882F56940300BE6061 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				BDFAA7732F56940100BE6061 /* swift-app-mobile */,
-				BDFAA7842F56940300BE6061 /* swift-app-mobileTests */,
-				BDFAA78E2F56940300BE6061 /* swift-app-mobileUITests */,
 				BDFAA7722F56940100BE6061 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				BDFAA7712F56940100BE6061 /* swift-app-mobile.app */,
-				BDFAA7812F56940300BE6061 /* swift-app-mobileTests.xctest */,
-				BDFAA78B2F56940300BE6061 /* swift-app-mobileUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = BDFAA7712F56940100BE6061 /* swift-app-mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BDFAA7802F56940300BE6061 /* swift-app-mobileTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BDFAA7982F56940300BE6061 /* Build configuration list for PBXNativeTarget "swift-app-mobileTests" */;
-			buildPhases = (
-				BDFAA77D2F56940300BE6061 /* Sources */,
-				BDFAA77E2F56940300BE6061 /* Frameworks */,
-				BDFAA77F2F56940300BE6061 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BDFAA7832F56940300BE6061 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BDFAA7842F56940300BE6061 /* swift-app-mobileTests */,
-			);
-			name = "swift-app-mobileTests";
-			packageProductDependencies = (
-			);
-			productName = "swift-app-mobileTests";
-			productReference = BDFAA7812F56940300BE6061 /* swift-app-mobileTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BDFAA78A2F56940300BE6061 /* swift-app-mobileUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BDFAA79B2F56940300BE6061 /* Build configuration list for PBXNativeTarget "swift-app-mobileUITests" */;
-			buildPhases = (
-				BDFAA7872F56940300BE6061 /* Sources */,
-				BDFAA7882F56940300BE6061 /* Frameworks */,
-				BDFAA7892F56940300BE6061 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BDFAA78D2F56940300BE6061 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BDFAA78E2F56940300BE6061 /* swift-app-mobileUITests */,
-			);
-			name = "swift-app-mobileUITests";
-			packageProductDependencies = (
-			);
-			productName = "swift-app-mobileUITests";
-			productReference = BDFAA78B2F56940300BE6061 /* swift-app-mobileUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,14 +83,6 @@
 					BDFAA7702F56940100BE6061 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					BDFAA7802F56940300BE6061 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = BDFAA7702F56940100BE6061;
-					};
-					BDFAA78A2F56940300BE6061 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = BDFAA7702F56940100BE6061;
-					};
 				};
 			};
 			buildConfigurationList = BDFAA76C2F56940100BE6061 /* Build configuration list for PBXProject "swift-app-mobile" */;
@@ -192,6 +91,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = BDFAA7682F56940100BE6061;
 			minimizedProjectReferenceProxies = 1;
@@ -201,28 +101,12 @@
 			projectRoot = "";
 			targets = (
 				BDFAA7702F56940100BE6061 /* swift-app-mobile */,
-				BDFAA7802F56940300BE6061 /* swift-app-mobileTests */,
-				BDFAA78A2F56940300BE6061 /* swift-app-mobileUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BDFAA76F2F56940100BE6061 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDFAA77F2F56940300BE6061 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDFAA7892F56940300BE6061 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +123,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDFAA77D2F56940300BE6061 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDFAA7872F56940300BE6061 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BDFAA7832F56940300BE6061 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BDFAA7702F56940100BE6061 /* swift-app-mobile */;
-			targetProxy = BDFAA7822F56940300BE6061 /* PBXContainerItemProxy */;
-		};
-		BDFAA78D2F56940300BE6061 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BDFAA7702F56940100BE6061 /* swift-app-mobile */;
-			targetProxy = BDFAA78C2F56940300BE6061 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BDFAA7932F56940300BE6061 /* Debug */ = {
@@ -446,78 +303,6 @@
 			};
 			name = Release;
 		};
-		BDFAA7992F56940300BE6061 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G5VLMA3FQQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app.ios.swift-app-mobileTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-app-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-app-mobile";
-			};
-			name = Debug;
-		};
-		BDFAA79A2F56940300BE6061 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G5VLMA3FQQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app.ios.swift-app-mobileTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-app-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-app-mobile";
-			};
-			name = Release;
-		};
-		BDFAA79C2F56940300BE6061 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G5VLMA3FQQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app.ios.swift-app-mobileUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "swift-app-mobile";
-			};
-			name = Debug;
-		};
-		BDFAA79D2F56940300BE6061 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G5VLMA3FQQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app.ios.swift-app-mobileUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "swift-app-mobile";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -535,24 +320,6 @@
 			buildConfigurations = (
 				BDFAA7962F56940300BE6061 /* Debug */,
 				BDFAA7972F56940300BE6061 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BDFAA7982F56940300BE6061 /* Build configuration list for PBXNativeTarget "swift-app-mobileTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BDFAA7992F56940300BE6061 /* Debug */,
-				BDFAA79A2F56940300BE6061 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BDFAA79B2F56940300BE6061 /* Build configuration list for PBXNativeTarget "swift-app-mobileUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BDFAA79C2F56940300BE6061 /* Debug */,
-				BDFAA79D2F56940300BE6061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
